@@ -1,0 +1,23 @@
+{
+  "name": "nba-scores-bot",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "bottender dev",
+    "lint": "eslint . ",
+    "start": "bottender start",
+    "test": "jest"
+  },
+  "dependencies": {
+    "apicalypse": "^0.1.6",
+    "axios": "^0.16.2",
+    "bottender": "1.4.10",
+    "eslint": "7.9.0",
+    "eslint-config-prettier": "6.11.0",
+    "eslint-plugin-prettier": "3.1.4",
+    "eventemitter3": "^4.0.7",
+    "jest": "26.4.2",
+    "node-persist": "^3.1.0",
+    "prettier": "2.1.2"
+  }
+}
